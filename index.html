@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epigamia - Pure Protein. Zero Guilt.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="page-shell">
+    <nav class="nav">
+<a class="nav-logo" href="index.html"><img src="images/logo.png" alt="Epigamia" style="height:38px; object-fit:contain;"></a>
+      <div class="nav-links">
+  <a href="#collections">Category</a>
+  <a href="#bestsellers">Best Sellers</a>
+  <a href="#available">Where to Find</a>
+</div>
+      <a href="product-codex.html#shop" class="nav-cta">Open Product Page</a>
+    </nav>
+
+    <section id="hero-slider">
+      <div class="slider-viewport">
+        <div class="track">
+          <article class="slide active" data-bg="#FBF5EE" data-ui="light">
+            <div class="slide-left">
+              <p class="eyebrow">Front page pick</p>
+              <h1 class="heading">Greek<br>Yogurt.</h1>
+              <p class="desc">Six spoonable cups, live cultures, zero preservatives, and a fruit-to-vanilla lineup that
+                now flows straight into the full product page.</p>
+              <div class="macros">
+                <div class="macro"><span class="macro-val">6</span><span class="macro-lbl">Flavours</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">7g</span><span class="macro-lbl">Protein</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">0</span><span class="macro-lbl">Preservatives</span></div>
+              </div>
+              
+              <a class="slide-link" href="product-codex.html?filter=Greek%20Yogurt#shop">Browse Greek Yogurt</a>
+            </div>
+            <div class="slide-center">
+              <div class="img-ring">
+                <div class="asset-shell">
+                  <img src= images/blueberry-greek-yogurt.webp alt="Blueberry Greek Yogurt"
+                    onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+                  <span class="asset-label">blueberry-greek-yogurt.jpg</span>
+                </div>
+              </div>
+            </div>
+<div class="slide-right">
+  <p class="ing-label">Key ingredients</p>
+  <ul class="ing-list">
+ <ul class="ing-list">
+  <li><a href="product-codex.html#product/blueberry-greek-yogurt">🫐 Blueberry Yogurt</a></li>
+  <li><a href="product-codex.html#product/strawberry-greek-yogurt">🍓 Strawberry Yogurt</a></li>
+  <li><a href="product-codex.html#product/alphonso-mango-greek-yogurt">🥭 Alphonso Mango Yogurt</a></li>
+  <li><a href="product-codex.html#product/vanilla-beans-greek-yogurt">🍦 Vanilla Beans Yogurt</a></li>
+  <li><a href="product-codex.html#product/natural-greek-yogurt">🥛 Natural Yogurt</a></li>
+  <li><a href="product-codex.html#product/raspberry-greek-yogurt">🫙 Raspberry Yogurt</a></li>
+</ul>
+  </ul>
+</div>
+          </article>
+
+          <article class="slide" data-bg="#17364A" data-ui="dark">
+            <div class="slide-left">
+              <p class="eyebrow light">Turbo yogurt shelf</p>
+              <h1 class="heading light">Protein<br>Yogurts.</h1>
+              <p class="desc light">Five chilled cups tuned for training days, including the 17g natural pick and four
+                15g fruit-led flavours.</p>
+              <div class="macros">
+                <div class="macro"><span class="macro-val light">5</span><span class="macro-lbl light">Flavours</span>
+                </div>
+                <div class="macro-line dark"></div>
+                <div class="macro"><span class="macro-val light">15g</span><span class="macro-lbl light">Core
+                    Protein</span></div>
+                <div class="macro-line dark"></div>
+                <div class="macro"><span class="macro-val light">17g</span><span class="macro-lbl light">Natural
+                    Pick</span></div>
+              </div>
+              <div class="pills">
+                
+              </div>
+              <a class="slide-link light" href="product-codex.html?filter=Protein%20Yogurts#shop">Browse Protein
+                Yogurts</a>
+            </div>
+            <div class="slide-center">
+              <div class="img-ring dark-ring">
+                <div class="asset-shell">
+                  <img src=images/mixed-berries-15g-protein-yogurt.webp alt="Mixed Berries 15g Protein Yogurt"
+                    onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+                  <span class="asset-label">mixed-berries-15g-protein-yogurt.jpg</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-right">
+  <p class="ing-label">Key ingredients</p>
+  <ul class="ing-list">
+              <ul class="ing-list light">
+  <li><a href="product-codex.html#product/alphonso-mango-15g-protein-yogurt">🥭 Alphonso Mango 15g</a></li>
+  <li><a href="product-codex.html#product/blueberry-15g-protein-yogurt">🫐 Blueberry 15g</a></li>
+  <li><a href="product-codex.html#product/strawberry-15g-protein-yogurt">🍓 Strawberry 15g</a></li>
+  <li><a href="product-codex.html#product/mixed-berries-15g-protein-yogurt">🍇 Mixed Berries 15g</a></li>
+  <li><a href="product-codex.html#product/natural-17g-protein-yogurt">🥛 Natural Flavoured 17g</a></li>
+</ul>
+              </ul>
+            </div>
+          </article>
+
+          <article class="slide" data-bg="#F5EADF" data-ui="light">
+            <div class="slide-left">
+              <p class="eyebrow">Ready-to-drink line</p>
+              <h1 class="heading">25g + 30g<br>Protein Shakes.</h1>
+              <p class="desc">The product page now carries both the heavier 30g shake line and the 25g milkshake line,
+                all connected from this front page in one scroll.</p>
+              <div class="macros">
+                <div class="macro"><span class="macro-val">6</span><span class="macro-lbl">Bottle
+                    Variants</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">30g</span><span class="macro-lbl">Max Protein</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">25g</span><span class="macro-lbl">Daily Grab</span></div>
+              </div>
+              
+              <a class="slide-link" href="product-codex.html?category=Protein%20Shakes#shop">Browse Protein Shakes</a>
+            </div>
+            <div class="slide-center">
+              <div class="img-ring">
+                <div class="asset-shell">
+                  <img src="images/malai-kulfi-30g-protein-shake.webp" alt="Malai Kulfi 30g Protein Shake"
+                    onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+                  <span class="asset-label">malai-kulfi-30g-protein-shake.jpg</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-right">
+              <p class="ing-label">Upload set</p>
+              <ul class="ing-list">
+                <ul class="ing-list">
+  <li><a href="product-codex.html#product/malai-kulfi-30g-protein-shake">🍨 Malai Kulfi 30g</a></li>
+  <li><a href="product-codex.html#product/alphonso-mango-30g-protein-milkshake">🥭 Alphonso Mango 30g</a></li>
+  <li><a href="product-codex.html#product/coffee-25g-protein-milkshake">☕ Coffee 25g</a></li>
+  <li><a href="product-codex.html#product/chocolate-25g-protein-milkshake">🍫 Chocolate 25g</a></li>
+  <li><a href="product-codex.html#product/vanilla-caramel-25g-protein-milkshake">🍮 Vanilla Caramel 25g</a></li>
+  <li><a href="product-codex.html#product/cookie-and-cream-25g-protein-milkshake">🍪 Cookie & Cream 25g</a></li>
+</ul>
+              </ul>
+            </div>
+          </article>
+
+          <article class="slide" data-bg="#DDEEF8" data-ui="light">
+            <div class="slide-left">
+              <p class="eyebrow">Lighter side of the shelf</p>
+              <h1 class="heading">Smoothies,<br>Zero Sugar,<br>Lactose Free.</h1>
+              <p class="desc">Smoothie bottles, zero sugar yogurt cups, classic milkshakes, and lactose-free staples are
+                now all mapped into the same product page experience.</p>
+              <div class="macros">
+                <div class="macro"><span class="macro-val">12</span><span class="macro-lbl">Linked Picks</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">5</span><span class="macro-lbl">Smoothies</span></div>
+                <div class="macro-line"></div>
+                <div class="macro"><span class="macro-val">4</span><span class="macro-lbl">Zero Sugar
+                    Cups</span></div>
+              </div>
+              
+              <a class="slide-link" href="product-codex.html?category=Smoothies#shop">Browse Lighter Picks</a>
+            </div>
+            <div class="slide-center">
+              <div class="img-ring">
+                <div class="asset-shell">
+                  <img src="images/coconut-blend-yogurt.webp" alt="Coconut Blend Yogurt"
+                    onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+                  <span class="asset-label">coconut-blend-yogurt.jpg</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-right">
+              <p class="ing-label">Upload set</p>
+              <ul class="ing-list">
+                <ul class="ing-list">
+  <li><a href="product-codex.html#product/coconut-blend-yogurt">🥥 Coconut Blend</a></li>
+  <li><a href="product-codex.html#product/almond-milk-beverage">🌰 Almond Milk</a></li>
+  <li><a href="product-codex.html#product/lactose-free-curd">🥛 Lactose Free Curd</a></li>
+  <li><a href="product-codex.html#product/strawberry-flavoured-yogurt-smoothie">🍓 Strawberry Smoothie</a></li>
+  <li><a href="product-codex.html#product/blueberry-flavoured-zero-sugar-smoothie">🫐 Blueberry Zero Sugar</a></li>
+  <li><a href="product-codex.html#product/mixed-berries-zero-sugar-yogurt">🍇 Mixed Berries Zero Sugar</a></li>
+</ul> 
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="dots">
+        <button class="dot active" type="button" aria-label="Slide 1"></button>
+        <button class="dot" type="button" aria-label="Slide 2"></button>
+        <button class="dot" type="button" aria-label="Slide 3"></button>
+        <button class="dot" type="button" aria-label="Slide 4"></button>
+      </div>
+      <div class="counter">
+        <span class="counter-now">01</span>
+        <span class="counter-sep"> / </span>
+        <span class="counter-tot">04</span>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-bar">
+          <div class="scroll-fill"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <span>GREEK YOGURT</span><span class="dot">|</span>
+        <span>PROTEIN YOGURTS</span><span class="dot">|</span>
+        <span>30G SHAKES</span><span class="dot">|</span>
+        <span>25G MILKSHAKES</span><span class="dot">|</span>
+        <span>SMOOTHIES</span><span class="dot">|</span>
+        <span>ZERO SUGAR</span><span class="dot">|</span>
+        <span>LACTOSE FREE</span><span class="dot">|</span>
+        <span>MILKSHAKES</span><span class="dot">|</span>
+        <span>GREEK YOGURT</span><span class="dot">|</span>
+        <span>PROTEIN YOGURTS</span><span class="dot">|</span>
+        <span>30G SHAKES</span><span class="dot">|</span>
+        <span>25G MILKSHAKES</span><span class="dot">|</span>
+        <span>SMOOTHIES</span><span class="dot">|</span>
+        <span>ZERO SUGAR</span><span class="dot">|</span>
+        <span>LACTOSE FREE</span><span class="dot">|</span>
+        <span>MILKSHAKES</span><span class="dot">|</span>
+      </div>
+    </div>
+
+    <section id="collections">
+      <h2 class="section-heading reveal">collections.</h2>
+      <div class="collection-row">
+
+
+        <a class="col-card reveal" data-delay="0" href="product-codex.html?filter=Greek%20Yogurt#shop" style="--col-color:#5BAEDC;">
+  <div class="col-img-block">
+    <img src="images/Yogurts.avif" alt="Greek Yogurt">
+  </div>
+  <div class="col-inner">
+    <span class="col-kicker">6 flavours</span>
+    <div class="col-name">Greek Yogurt</div>
+    <div class="col-desc">Blueberry, Strawberry, Raspberry, Alphonso Mango, Natural, Vanilla Beans.</div>
+    <span class="col-route">Open on product page</span>
+  </div>
+</a>
+
+ <a class="col-card reveal" data-delay="0.1"href="product-codex.html?filter=Protein%20Yogurts#shop"style="--col-color:#17364A;">
+  <div class="col-img-block">
+    <img src="images/Protein-Yogurt.webp" alt="Greek Yogurt">
+  </div>
+  <div class="col-inner">
+    <span class="col-kicker"> 5 flavours</span>
+    <div class="col-name">Protein Greek Yogurt</div>
+    <div class="col-desc">Alphonso Mango 15g, Blueberry 15g, Strawberry 15g, Mixed Berries 15g, Natural 17g.</div>
+    <span class="col-route">Open on product page</span>
+  </div>
+</a>
+ <a class="col-card reveal" data-delay="0.2"href="product-codex.html?filter=30g%20Protein%20Shakes#shop
+"style="--col-color:#C99564A;">
+  <div class="col-img-block">
+    <img src="images/30g-Protein-Shake.webp" alt="Protein Shake">
+  </div>
+  <div class="col-inner">
+    <span class="col-kicker"> 2 bottles</span>
+    <div class="col-name">30g Protein Shakes</div>
+    <div class="col-desc">Malai Kulfi 30g Protein Shake and Alphonso Mango 30g Protein Milkshake.</div>
+    <span class="col-route">Open on product page</span>
+  </div>
+</a>
+
+        
+        <a class="col-card reveal" data-delay="0.15" href="product-codex.html?filter=25g%20Protein%20Milkshakes#shop"style= --col-color:#8C5E52;" >
+           <div class="col-img-block">
+    <img src="images/25g-Protein-Shake.png" alt="Protein Shake">
+  </div>
+          <div class="col-inner">
+            <span class="col-kicker">4 bottles</span>
+            <div class="col-name">25g Protein Milkshakes</div>
+            <div class="col-desc">Coffee, Chocolate, Vanilla Caramel, and Cookie and Cream.</div>
+            <span class="col-route">Open on product page</span>
+          </div>
+        </a>
+        <a class="col-card reveal" data-delay="0.2" href="product-codex.html?filter=Milkshakes#shop">
+          <div class="col-img-block">
+    <img src="images/chocolate-milkshake.jpg" alt="Milk Shake">
+  </div>
+          <div class="col-inner">
+            <span class="col-kicker">3 classics</span>
+            <div class="col-name">Milkshakes</div>
+            <div class="col-desc">Chocolate Milkshake, Strawberry Milkshake, and Vanilla Milkshake.</div>
+            <span class="col-route">Open on product page</span>
+          </div>
+        </a>
+        <a class="col-card reveal" data-delay="0.25" href="product-codex.html?filter=Lactose%20Free#shop">
+          <div class="col-img-block">
+    <img src="images/coconut-blend-yogurt.webp" alt="Milk Shake">
+  </div>
+
+          <div class="col-inner">
+            <span class="col-kicker">3 staples</span>
+            <div class="col-name">Lactose Free</div>
+            <div class="col-desc">Coconut Blend Yogurt, Almond Milk Beverage, and Lactose Free Curd.</div>
+            <span class="col-route">Open on product page</span>
+          </div>
+        </a>
+        <a class="col-card reveal" data-delay="0.3" href="product-codex.html?filter=Smoothies#shop">
+           <div class="col-img-block">
+    <img src="images/Smoothies.webp" alt="Smoothies">
+  </div>
+          <div class="col-inner">
+            <span class="col-kicker">5 bottles</span>
+            <div class="col-name">Smoothies</div>
+            <div class="col-desc">Strawberry, Blueberry, Alphonso Mango, Strawberry Zero Sugar, and Blueberry Zero
+              Sugar.</div>
+            <span class="col-route">Open on product page</span>
+          </div>
+        </a>
+        <a class="col-card reveal" data-delay="0.35" href="product-codex.html?filter=Zero%20Sugar%20Yogurts#shop">
+  <div class="col-img-block">
+    <img src="images/Zero-Sugar-Yogurt.webp" alt="Zero Sugar Yogurt">
+  </div>
+          <div class="col-inner">
+            <span class="col-kicker">4 cups</span>
+            <div class="col-name">Zero Sugar Yogurts</div>
+            <div class="col-desc">Alphonso Mango, Blueberry, Strawberry, and Mixed Berries.</div>
+            <span class="col-route">Open on product page</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="bestsellers">
+      <h2 class="section-heading reveal">Bestsellers.</h2>
+      <p class="bestsellers-sub reveal">Featured entries that jump straight into the product page and detail view.</p>
+      <div class="product-grid">
+        <article class="product-card reveal" style="--p-color:#5BAEDC;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src=images/blueberry-greek-yogurt.webp alt="Blueberry Greek Yogurt"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">blueberry-greek-yogurt.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Blueberry Greek Yogurt</div>
+            <div class="product-meta"><span class="tag-pill">Greek Yogurt</span><span class="protein-stat">7g protein
+                cup</span></div>
+            <div class="product-footer"><span class="price">&#8377;55</span><a class="add-btn"
+                href="product-codex.html#product/blueberry-greek-yogurt">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#36627B;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset dark-asset">
+              <img src="images/mixed-berries-15g-protein-yogurt.webp" alt="Mixed Berries 15g Protein Yogurt"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">mixed-berries-15g-protein-yogurt.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Mixed Berries 15g Protein Yogurt</div>
+            <div class="product-meta"><span class="tag-pill">Protein Yogurts</span><span class="protein-stat">15g
+                protein</span></div>
+            <div class="product-footer"><span class="price">&#8377;125</span><a class="add-btn"
+                href="product-codex.html#product/mixed-berries-15g-protein-yogurt">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#C99564;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/malai-kulfi-30g-protein-shake.webp" alt="Malai Kulfi 30g Protein Shake"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">malai-kulfi-30g-protein-shake.webp</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Malai Kulfi 30g Protein Shake</div>
+            <div class="product-meta"><span class="tag-pill">30g Protein Shakes</span><span class="protein-stat">30g
+                bottle</span></div>
+            <div class="product-footer"><span class="price">&#8377;185</span><a class="add-btn"
+                href="product-codex.html#product/malai-kulfi-30g-protein-shake">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#8C5E52;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/cookie-and-cream-25g-protein-milkshake.jpg" alt="Cookie and Cream 25g Protein Milkshake"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">cookie-and-cream-25g-protein-milkshake.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Cookie and Cream 25g Protein Milkshake</div>
+            <div class="product-meta"><span class="tag-pill">25g Protein Milkshakes</span><span
+                class="protein-stat">25g bottle</span></div>
+            <div class="product-footer"><span class="price">&#8377;155</span><a class="add-btn"
+                href="product-codex.html#product/cookie-and-cream-25g-protein-milkshake">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#B86863;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/vanilla-caramel-25g-protein-milkshake.webp" alt="Vanilla Milkshake"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">vanilla-milkshake.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Vanilla Milkshake</div>
+            <div class="product-meta"><span class="tag-pill">Milkshakes</span><span class="protein-stat">classic chilled
+                sip</span></div>
+            <div class="product-footer"><span class="price">&#8377;95</span><a class="add-btn"
+                href="product-codex.html#product/vanilla-milkshake">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#8FBF95;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/coconut-blend-yogurt.webp" alt="Coconut Blend Yogurt"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">coconut-blend-yogurt.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Coconut Blend Yogurt</div>
+            <div class="product-meta"><span class="tag-pill">Lactose Free</span><span class="protein-stat">plant-based
+                cup</span></div>
+            <div class="product-footer"><span class="price">&#8377;150</span><a class="add-btn"
+                href="product-codex.html#product/coconut-blend-yogurt">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#E27A88;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/strawberry-flavoured-yogurt-smoothie.webp" alt="Strawberry Flavoured Yogurt Smoothie"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">strawberry-flavoured-yogurt-smoothie.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Strawberry Flavoured Yogurt Smoothie</div>
+            <div class="product-meta"><span class="tag-pill">Smoothies</span><span class="protein-stat">drinkable yogurt
+                bottle</span></div>
+            <div class="product-footer"><span class="price">&#8377;85</span><a class="add-btn"
+                href="product-codex.html#product/strawberry-flavoured-yogurt-smoothie">View Product</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--p-color:#7B70B1;">
+          <div class="product-img-area">
+            <div class="asset-shell product-asset">
+              <img src="images/mixed-berries-zero-sugar-yogurt.webp" alt="Mixed Berries Zero Sugar Yogurt"
+                onerror="this.style.display='none';this.parentNode.classList.add('is-missing')">
+              <span class="asset-label">mixed-berries-zero-sugar-yogurt.jpg</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-name">Mixed Berries - Zero Sugar Yogurt</div>
+            <div class="product-meta"><span class="tag-pill">Zero Sugar</span><span class="protein-stat">cleaner cup
+                choice</span></div>
+            <div class="product-footer"><span class="price">&#8377;60</span><a class="add-btn"
+                href="product-codex.html#product/mixed-berries-zero-sugar-yogurt">View Product</a></div>
+          </div>
+        </article>
+      </div>
+      <div class="section-cta reveal">
+        <a class="section-link" href="product-codex.html#shop">Browse All 32 Products</a>
+      </div>
+    </section>
+
+    <section id="nutrition">
+      <h2 class="section-heading reveal">hard  facts.</h2>
+      <div class="nutrition-grid">
+        <div class="nut-cell reveal">
+          <span class="nut-num"><span class="count" data-target="6">0</span></span>
+          <div class="nut-label">Greek yogurt flavours on the front page</div>
+        </div>
+        <div class="nut-cell reveal">
+          <span class="nut-num"><span class="count" data-target="5">0</span></span>
+          <div class="nut-label">Protein yogurt flavours linked into the store</div>
+        </div>
+        <div class="nut-cell reveal">
+          <span class="nut-num"><span class="count" data-target="30">0</span><span class="nut-unit">g</span></span>
+          <div class="nut-label">Top protein hit in the shake range</div>
+        </div>
+        <div class="nut-cell reveal">
+          <span class="nut-num"><span class="count" data-target="4">0</span></span>
+          <div class="nut-label">Zero sugar yogurt cups in the catalog</div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+    <!-- ============================================================
+  SECTION 8: AVAILABLE ON
+  ============================================================ -->
+  <section id="available">
+    <h2 class="section-heading reveal">also available on.</h2>
+    <div class="platform-row">
+      <div class="platform-card reveal"><span class="platform-icon">🛒</span>BigBasket</div>
+      <div class="platform-card reveal"><span class="platform-icon">🛵</span>Swiggy</div>
+      <div class="platform-card reveal"><span class="platform-icon">⚡</span>Blinkit</div>
+      <div class="platform-card reveal"><span class="platform-icon">📦</span>JioMart</div>
+      <div class="platform-card reveal"><span class="platform-icon">🛍️</span>Amazon</div>
+    </div>
+  </section>
+  <section id="newsletter">
+    <h2 class="newsletter-heading reveal">sign up for cup-shup.</h2>
+    <p class="newsletter-sub reveal">Exciting products and recipes. No inbox flooding, promise.</p>
+    <div class="newsletter-form reveal">
+      <input class="newsletter-input" type="email" placeholder="your@email.com">
+      <button class="newsletter-btn">SUBSCRIBE →</button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  FOOTER
+  ============================================================ -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div>
+<div class="footer-logo"><img src="images/logo.png" alt="Epigamia" style="height:36px; object-fit:contain; filter:brightness(0) invert(1);"></div>        <div class="footer-tagline">Pure Protein. Zero Guilt.</div>
+      </div>
+      <nav class="footer-nav">
+        <a href="#">About</a>
+        <a href="#">Track Order</a>
+        <a href="#">FAQ</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="#" class="social-btn" title="Instagram">📷</a>
+        <a href="#" class="social-btn" title="Twitter">🐦</a>
+        <a href="#" class="social-btn" title="Facebook">📘</a>
+        <a href="#" class="social-btn" title="YouTube">▶️</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Epigamia · Pure Protein. Zero Guilt.</span>
+      <span class="footer-copy">Made with 🫙 in India</span>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
